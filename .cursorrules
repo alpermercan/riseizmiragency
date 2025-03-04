@@ -1,0 +1,98 @@
+{
+  "project": {
+    "name": "Rise Digital Agency",
+    "type": "web",
+    "framework": "next.js",
+    "styling": "tailwindcss",
+    "animations": "framer-motion"
+  },
+  "structure": {
+    "src": {
+      "components": "src/components",
+      "pages": "src/pages",
+      "styles": "src/styles",
+      "public": "public",
+      "utils": "src/utils"
+    }
+  },
+  "dependencies": {
+    "next": "^14.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "framer-motion": "^11.0.0",
+    "tailwindcss": "^3.4.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0"
+  },
+  "version": "1.0",
+  "rules": [
+    {
+      "name": "SEO Optimization",
+      "description": "Ensure the website is SEO friendly with meta tags, alt texts, and structured data.",
+      "actions": [
+        "Add meta tags for description, keywords, and author.",
+        "Use semantic HTML5 elements for better structure.",
+        "Include alt attributes for all images.",
+        "Generate a sitemap.xml and robots.txt file."
+      ]
+    },
+    {
+      "name": "Responsive Design",
+      "description": "Make the website fully responsive using CSS Flexbox and Grid.",
+      "actions": [
+        "Use media queries to adjust layout for different screen sizes.",
+        "Implement a mobile-first approach.",
+        "Ensure images are responsive with srcset attributes.",
+        "Test the website on various devices and browsers."
+      ]
+    },
+    {
+      "name": "Color Theme",
+      "description": "Apply the color theme of pistachio green, black, and white.",
+      "actions": [
+        "Define CSS variables for the color scheme.",
+        "Apply the color theme to all elements, including buttons, links, and backgrounds.",
+        "Ensure contrast ratios meet accessibility standards."
+      ]
+    },
+    {
+      "name": "Animations",
+      "description": "Add engaging animations to enhance user experience.",
+      "actions": [
+        "Use CSS animations for hover effects and transitions.",
+        "Incorporate JavaScript libraries like GSAP for complex animations.",
+        "Ensure animations are smooth and do not affect performance."
+      ]
+    },
+    {
+      "name": "Deployment",
+      "description": "Deploy the website with minimal or no cost using platforms like GitHub Pages or Netlify.",
+      "actions": [
+        "Set up a GitHub repository for the project.",
+        "Configure GitHub Pages for deployment.",
+        "Use Netlify for continuous deployment and custom domain setup.",
+        "Optimize assets for fast loading times."
+      ]
+    },
+    {
+      "name": "Content Management",
+      "description": "Ensure easy content updates and management.",
+      "actions": [
+        "Integrate a headless CMS like Contentful or Strapi for dynamic content management.",
+        "Create content models for services, phone numbers, client companies, and portfolio items.",
+        "Provide an admin panel for easy content updates.",
+        "Ensure the CMS is accessible and user-friendly for non-technical users."
+      ]
+    },
+    {
+      "name": "Dynamic Sections",
+      "description": "Enable easy management of services, phone numbers, client companies, and portfolio.",
+      "actions": [
+        "Create a services section that pulls data from the CMS.",
+        "Implement a contact section that dynamically updates phone numbers.",
+        "Develop a client section that showcases companies worked with, managed via CMS.",
+        "Build a portfolio section that can be easily updated with new projects."
+      ]
+    }
+  ]
+}
